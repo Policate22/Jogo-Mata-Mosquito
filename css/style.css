@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #353535;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#Logo{
+    color:white;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+}
+.img-logo{
+    width: 30px;
+    height: 30px;
+   
+}
+
+
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main{
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    background-image: url(../css/img/mosquito.webp);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.text{
+font-size: 40px;
+
+}
+
+.Botao {
+    background-color:red;
+    height: 60px;
+    width: 80px;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.Botao:hover {
+    background-color: rgb(64, 64, 65); 
+    transform: scale(1.05);
+  
+}
+
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
